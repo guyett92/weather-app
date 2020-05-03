@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <met http-equiv="X-UA-Compatible" content="ie-edge"></met>
+    <title>Weather App</title>
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script defer src="js/script.js"></script>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+    <main>
+        <section>
+            <h1>Weather Data</h1>
+            <p>Enter the city and click the button below to view the current weather data!</p>
+            <img src="">
+            <dl>
+                <dt>City:</dt>
+                <dd id="city"></dd>
+                <dt>Forecast:</dt>
+                <dd id="forecast"></dd>
+                <dt>Temperature:</dt>
+                <dd id="temp"></dd>
+                <dt>Wind Speed:</dt>
+                <dd id="wind"></dd>
+                <dt>Humidity:</dt>
+                <dd id="humidity"></dd>
+            </dl>
+        </section>
+        <form>
+            <input type="text" placeholder="City Name">
+            <input type="submit" value="Get Forecast">
+        </form>
+        <aside id="again"></aside>
+    </main>
+</body>
+</html>

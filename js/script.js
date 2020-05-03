@@ -52,6 +52,7 @@ function conversion(kelvin) {
     return Math.floor(kelvin * (9/5) - 459.67) + "°F";
 }
 
+//Entice the user to click again
 function clickAgain() {
     $again.html('Search another city!');
 }
